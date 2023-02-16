@@ -385,6 +385,15 @@ p {
 }
 
 /* -------------------------- COMPOSANT */
+.logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  flex: 1;
+}
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;

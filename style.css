@@ -411,3 +411,15 @@ p {
 .menu-entete-container .menu .menu-item a:hover {
   color: #0f0;
 }
+
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blocflex article {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  flex: 1 0 300px;
+}

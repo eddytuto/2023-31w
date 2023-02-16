@@ -1,9 +1,9 @@
 # Résumé des commandes git et github
 ## Création d'un dépôt local
-- Dans l'explorateur pour voir les fichiers caché : **affichage/éléments masqu**és (qu'il faut côcher)
-- Le dépôt locat se nomme; **.git**
+- Dans l'explorateur pour voir les fichiers caché : **affichage/éléments masqués** (qu'il faut côcher)
+- Le dépôt local se nomme; **.git**
 - Dans visual code sélectionner le dossier du **thème** et avec touche droite le la souris **open in integrated terminal**
-- git init (on exécute une seule fois cette commande. Permet de créer le dossier **.git**
+- git init (on exécute **une seule fois** cette commande. Permet de créer le dossier **.git**
 - git status (permet de vérifier l'état de notre dépôt:)
     - Des fichiers doivent être indexé si ils apparaissent en rouge
     - en vert ils ont été indexé et on doit faire un commit

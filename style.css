@@ -423,3 +423,8 @@ p {
   border: 1px solid #aaa;
   flex: 1 0 300px;
 }
+
+.recherche article {
+  background-color: azure;
+  margin: 10px;
+}

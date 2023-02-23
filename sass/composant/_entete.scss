@@ -10,17 +10,24 @@
 
 }
 
+.menusearch {
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap : wrap;
+}
+
 
 
 .menu-entete-container {
-flex : 1;
+
 
 .menu { //ul 
     display : flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     list-style-type: none;
-    margin-left : auto;
+   // margin-left : auto;
 
 .menu-item { // li
         flex : 1 0 50px;

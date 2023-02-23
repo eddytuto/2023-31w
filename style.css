@@ -391,15 +391,18 @@ p {
   align-items: center;
 }
 
-.menu-entete-container {
-  flex: 1;
+.menusearch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-left: auto;
 }
 .menu-entete-container .menu .menu-item {
   flex: 1 0 50px;

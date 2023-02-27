@@ -52,12 +52,12 @@
 
 1. Organisation des commits sur Github minimum 10 commits pour l'extension et 10 commits pour le thème **_(5 points)_**
 
-   - Adresse github dans la description du thème/plugin
+   - Adresse de votre github et votre nom devront apparaître clairement dans la page d'accueil de votre TP1
    - Minimum de 10 commits étalés sur toute la durée du TP
    - Messages clairs, spécifiques, préfixé et non redondant
    - Une branche **tp1**
    - Déploiement de votre site sur Siteground
-   - Un readme.md pour le thème et pour l'extension: auteur, titre du projet, description et lien vers votre site Site siteground
+   - Un readme.md pour le thème et pour l'extension: auteur, titre du projet, description et lien vers votre site siteground
 
 2. Fonctionnement de l’extension carrousel, qualité du design, de l’intégration, des animations, organisation de la codification et adaptabilité **_(10 points)_**
 3. Organisation de l'entête, footer et partie principale. Qualité du design et de l’intégration des différents éléments de contenu. Notamment, les articles de notes de cours s'affichent de façon optimale. Les modèles: header.php, footer.php, category.php, front-page.php et single.php sont bien structurées et affichent l'information prévue. **_(5 points)_**

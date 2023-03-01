@@ -5,7 +5,7 @@ function ajouter_styles() {
                 get_template_directory_uri() . '/style.css', // adresse url de la feuille de style
                 array(), // les dépendances avec les autres feuilles de style
                 filemtime(get_template_directory() . '/style.css')); // la de la dernière feuille de style
-}
+
 add_action( 'wp_enqueue_scripts', 'ajouter_styles' );
 
 /* --------------------------------------------------- Add_theme_support */

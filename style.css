@@ -461,6 +461,12 @@ Mise en page avec display: grid
 .site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header" "aside" "main" "footer";
   row-gap: 50px;
+}
+@media screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 30% auto;
+    grid-template-areas: "header header" "aside main" "footer footer";
+  }
 }

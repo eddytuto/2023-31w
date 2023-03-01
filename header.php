@@ -22,4 +22,12 @@
         <h1><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h1> 
         <h2><?php  bloginfo('description'); ?></h2>
     </header>
+    <aside class="site__aside">
+        <h3>Menu secondaire</h3>
+        <?php wp_nav_menu(array(
+            "menu" => "cours",
+            "container" => "nav"
+        )); ?>
+
+    </aside>
     

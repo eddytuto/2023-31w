@@ -420,11 +420,16 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.blocflex article {
+
+.blocflex__article {
   margin: 10px;
   padding: 5px;
   border: 1px solid #aaa;
   flex: 1 0 300px;
+}
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 .recherche article {
